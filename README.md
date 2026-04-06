@@ -1,6 +1,6 @@
-# 📁 Student Project Repository Guide
+# Student Project Repository Guide
 
-## 📌 Overview
+##  Overview
 
 This repository is created to manage individual projects for **30 students**.
 Each student must work on their assigned project and push their code to this repository using proper structure and guidelines.
@@ -22,7 +22,7 @@ Each student must create and work inside their own folder:
 └── ...
 ```
 
-✅ Folder name format:
+### Folder name format:
 
 ```
 yourname_project
@@ -31,7 +31,7 @@ Example: sarojbhandari_mlproject
 
 ---
 
-## 🚀 Instructions for Students
+## Instructions for Students
 
 ### 1. Clone the Repository
 
@@ -122,7 +122,7 @@ git push origin yourname_branch
 
 ---
 
-## ❌ Rules
+##  Rules
 
 * Do NOT modify other students' folders
 * Do NOT push to `main` branch directly
@@ -140,17 +140,17 @@ git push origin yourname_branch
 
 ---
 
-## 💡 Note
+##  Note
 
 You will be provided with the **GitHub repository link**.
 Make sure to follow all instructions carefully to avoid submission issues.
 
 ---
 
-## 📞 Support
+##  Support
 
 If you face any issues, contact me saroj-15 before the deadline.
 
 ---
 
-✅ *Follow the steps properly to ensure smooth evaluation.*
+ *Follow the steps properly to ensure smooth evaluation.*
