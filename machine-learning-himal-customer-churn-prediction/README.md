@@ -1,1 +1,1 @@
-# Customer Churn Detection Project
+# Customer Churn Prediction Project
