@@ -1,5 +1,7 @@
 from src.data_preprocessing import load_data, show_basic_info, clean_data, convert_target, encode_data, encode_all
 
+from src.train_model import train
+
 data = load_data()
 
 show_basic_info(data)
@@ -17,3 +19,9 @@ print(data.head())
 
 print("\n Data types:")
 print(data.dtypes)
+
+model, accuracy = train(data)
+
+print("\n Model train successfully")
+print("Accuracy: ", accuracy) 
+

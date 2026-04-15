@@ -45,4 +45,6 @@ def encode_data(data):
 def encode_all(data):
     data = pd.get_dummies(data)
 
+    data = data.astype(int)
+
     return data
