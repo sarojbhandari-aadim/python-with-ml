@@ -31,3 +31,17 @@ pip install -r requirements.txt
 - fakenews_app/ - Django app
 - templates/ - HTML files
 - dataset/ - CSV files (not included in repo)
+
+
+## Output Screenshots
+
+### Home Page
+![Home Page](screenshots/home.png)
+
+
+### Fake News Result
+![Fake Result](screenshots/fake_result.png)
+
+### Real News Result
+![Real Result](screenshots/real_result.png)
+
