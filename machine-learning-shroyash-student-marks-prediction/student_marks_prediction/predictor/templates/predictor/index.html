@@ -1,0 +1,70 @@
+{% extends "predictor/base.html" %}
+{% load static %}
+
+{% block content %}
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem;">
+
+  <!-- INPUT FORM -->
+  <div class="card">
+    <div class="card-title">Student input</div>
+    <form method="POST">
+      {% csrf_token %}
+      {% for field in form %}
+        <label>{{ field.label }}</label>
+        {{ field }}
+        {% if field.errors %}
+          <div style="color: var(--red); font-size: 12px; margin-top: 4px;">{{ field.errors.0 }}</div>
+        {% endif %}
+        <div class="hint">{{ field.help_text }}</div>
+      {% endfor %}
+      <button type="submit" style="margin-top: 1.5rem;">Run prediction →</button>
+    </form>
+  </div>
+
+  <!-- RESULT -->
+  <div>
+    {% if prediction %}
+    <div class="card">
+      <div class="card-title">Prediction result</div>
+      <div style="text-align: center; padding: 1.5rem 0;">
+        <div style="font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 8px;">Predicted Score</div>
+        <div style="font-size: 56px; font-weight: 700; color: var(--accent);">{{ prediction }}<span style="font-size: 20px; color: var(--muted);">/100</span></div>
+
+        <!-- Grade badge -->
+        {% if prediction >= 90 %}
+          <span style="background: #1a3a2a; color: var(--green); padding: 4px 16px; border-radius: 6px; font-size: 13px; margin-top: 8px; display: inline-block;">Outstanding</span>
+        {% elif prediction >= 75 %}
+          <span style="background: #1a2a3a; color: var(--accent); padding: 4px 16px; border-radius: 6px; font-size: 13px; margin-top: 8px; display: inline-block;">Proficient</span>
+        {% elif prediction >= 60 %}
+          <span style="background: #3a2a1a; color: var(--amber); padding: 4px 16px; border-radius: 6px; font-size: 13px; margin-top: 8px; display: inline-block;">Developing</span>
+        {% else %}
+          <span style="background: #3a1a1a; color: var(--red); padding: 4px 16px; border-radius: 6px; font-size: 13px; margin-top: 8px; display: inline-block;">Needs Support</span>
+        {% endif %}
+
+        <!-- Progress bar -->
+        <div style="background: #1d1d27; border-radius: 4px; height: 8px; margin-top: 1.5rem; overflow: hidden;">
+          <div style="height: 100%; width: {{ prediction }}%; background: var(--accent); border-radius: 4px; transition: width 0.6s;"></div>
+        </div>
+      </div>
+    </div>
+    {% else %}
+    <div class="card" style="text-align: center; color: var(--muted); padding: 3rem; font-size: 13px;">
+      Fill in the form and click<br>"Run prediction" to see results.
+    </div>
+    {% endif %}
+
+    <!-- HISTORY -->
+    {% if history %}
+    <div class="card" style="margin-top: 1rem;">
+      <div class="card-title">Recent predictions</div>
+      {% for rec in history %}
+      <div style="display: flex; justify-content: space-between; padding: 8px 0; border-bottom: 1px solid var(--border); font-size: 13px;">
+        <span style="color: var(--muted);">{{ rec.hours_studied }}h · {{ rec.attendance }}% att · {{ rec.created_at|timesince }} ago</span>
+        <strong style="color: var(--accent);">{{ rec.predicted_score }}</strong>
+      </div>
+      {% endfor %}
+    </div>
+    {% endif %}
+  </div>
+</div>
+{% endblock %}

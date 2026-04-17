@@ -1,0 +1,32 @@
+{% extends "predictor/base.html" %}
+{% load static %}
+
+{% block content %}
+<h2 style="font-size: 16px; margin-bottom: 1.5rem;">Exploratory Data Analysis</h2>
+
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+  <div class="card">
+    <div class="card-title">Study time vs performance</div>
+    <img src="{% static 'predictor/charts/study_vs_marks.png' %}" style="width: 100%; border-radius: 8px;" alt="Study vs Marks">
+    <p style="font-size: 12px; color: var(--muted); margin-top: 0.75rem;">
+      Strong positive correlation — each extra hour studied adds ~5 points on average.
+    </p>
+  </div>
+
+  <div class="card">
+    <div class="card-title">Attendance vs performance</div>
+    <img src="{% static 'predictor/charts/attendance_vs_marks.png' %}" style="width: 100%; border-radius: 8px;" alt="Attendance vs Marks">
+    <p style="font-size: 12px; color: var(--muted); margin-top: 0.75rem;">
+      Students with 90%+ attendance consistently score 15–20 points higher.
+    </p>
+  </div>
+
+  <div class="card" style="grid-column: 1 / -1;">
+    <div class="card-title">Correlation heatmap</div>
+    <img src="{% static 'predictor/charts/correlation_heatmap.png' %}" style="width: 100%; max-height: 400px; object-fit: contain; border-radius: 8px;" alt="Heatmap">
+    <p style="font-size: 12px; color: var(--muted); margin-top: 0.75rem;">
+      Previous scores (0.91) and hours studied (0.88) are the strongest predictors of the performance index.
+    </p>
+  </div>
+</div>
+{% endblock %}
