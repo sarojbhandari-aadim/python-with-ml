@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Medical Cost Prediction</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      min-height: 100vh;
+      padding: 30px 16px;
+    }
+
+    .container {
+      max-width: 860px;
+      margin: 0 auto;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 32px;
+    }
+
+    header h1 {
+      font-size: 2rem;
+      color: #fff;
+      letter-spacing: 1px;
+    }
+
+    header p {
+      color: #a0c4d8;
+      margin-top: 6px;
+      font-size: 0.95rem;
+    }
+
+    .card {
+      background: #ffffff0f;
+      backdrop-filter: blur(12px);
+      border: 1px solid #ffffff1a;
+      border-radius: 16px;
+      padding: 28px 32px;
+      margin-bottom: 24px;
+    }
+
+    .card h2 {
+      color: #7dd3f8;
+      font-size: 1rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-bottom: 18px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid #ffffff15;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+      gap: 16px;
+    }
+
+    .field {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+    }
+
+    label {
+      color: #c4dde9;
+      font-size: 0.82rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    input, select {
+      background: #ffffff12;
+      border: 1px solid #ffffff20;
+      border-radius: 8px;
+      color: #fff;
+      padding: 10px 12px;
+      font-size: 0.92rem;
+      outline: none;
+      transition: border 0.2s;
+      width: 100%;
+    }
+
+    input:focus, select:focus {
+      border-color: #7dd3f8;
+    }
+
+    select option {
+      background: #1e3a4f;
+      color: #fff;
+    }
+
+    .errorlist {
+      color: #ff7979;
+      font-size: 0.8rem;
+      list-style: none;
+      margin-top: 3px;
+    }
+
+    .btn-wrap {
+      text-align: center;
+      margin-top: 10px;
+    }
+
+    button[type="submit"] {
+      background: linear-gradient(135deg, #0ea5e9, #6366f1);
+      border: none;
+      color: white;
+      font-size: 1rem;
+      font-weight: 700;
+      padding: 14px 48px;
+      border-radius: 50px;
+      cursor: pointer;
+      letter-spacing: 1px;
+      transition: transform 0.15s, box-shadow 0.2s;
+      box-shadow: 0 4px 20px #0ea5e955;
+    }
+
+    button[type="submit"]:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 28px #0ea5e977;
+    }
+
+    .result-box {
+      background: linear-gradient(135deg, #0ea5e920, #6366f120);
+      border: 1px solid #0ea5e955;
+      border-radius: 16px;
+      padding: 28px;
+      text-align: center;
+      margin-bottom: 24px;
+    }
+
+    .result-box p {
+      color: #a0c4d8;
+      font-size: 0.9rem;
+      margin-bottom: 8px;
+    }
+
+    .result-box .amount {
+      font-size: 2.8rem;
+      font-weight: 800;
+      color: #7dd3f8;
+      letter-spacing: 1px;
+    }
+
+    .error-box {
+      background: #ff00001a;
+      border: 1px solid #ff444455;
+      border-radius: 12px;
+      padding: 16px 20px;
+      color: #ff7979;
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <header>
+      <h1> Medical Cost Prediction</h1>
+      <p>Enter patient details to predict the estimated annual medical cost</p>
+    </header>
+
+    {% if prediction %}
+    <div class="result-box">
+      <p>Estimated Annual Medical Cost</p>
+      <div class="amount">{{ prediction.predicted_cost_formatted }}</div>
+    </div>
+    {% endif %}
+
+    {% if error %}
+    <div class="error-box">Error: {{ error }}</div>
+    {% endif %}
+
+    <form method="POST">
+      {% csrf_token %}
+
+      <!-- Personal Info -->
+      <div class="card">
+        <h2> Personal Information</h2>
+        <div class="grid">
+          <div class="field">
+            <label>{{ form.age.label }}</label>
+            {{ form.age }}
+            {{ form.age.errors }}
+          </div>
+          <div class="field">
+            <label>{{ form.gender.label }}</label>
+            {{ form.gender }}
+            {{ form.gender.errors }}
+          </div>
+          <div class="field">
+            <label>{{ form.bmi.label }}</label>
+            {{ form.bmi }}
+            {{ form.bmi.errors }}
+          </div>
+          <div class="field">
+            <label>{{ form.city_type.label }}</label>
+            {{ form.city_type }}
+            {{ form.city_type.errors }}
+          </div>
+        </div>
+      </div>
+
+      <!-- Health Conditions -->
+      <div class="card">
+        <h2> Health Conditions</h2>
+        <div class="grid">
+          <div class="field">
+            <label>{{ form.smoker.label }}</label>
+            {{ form.smoker }}
+            {{ form.smoker.errors }}
+          </div>
+          <div class="field">
+            <label>{{ form.diabetes.label }}</label>
+            {{ form.diabetes }}
+            {{ form.diabetes.errors }}
+          </div>
+          <div class="field">
+            <label>{{ form.hypertension.label }}</label>
+            {{ form.hypertension }}
+            {{ form.hypertension.errors }}
+          </div>
+          <div class="field">
+            <label>{{ form.heart_disease.label }}</label>
+            {{ form.heart_disease }}
+            {{ form.heart_disease.errors }}
+          </div>
+          <div class="field">
+            <label>{{ form.asthma.label }}</label>
+            {{ form.asthma }}
+            {{ form.asthma.errors }}
+          </div>
+        </div>
+      </div>
+
+      <!-- Lifestyle -->
+      <div class="card">
+        <h2> Lifestyle</h2>
+        <div class="grid">
+          <div class="field">
+            <label>{{ form.physical_activity_level.label }}</label>
+            {{ form.physical_activity_level }}
+            {{ form.physical_activity_level.errors }}
+          </div>
+          <div class="field">
+            <label>{{ form.daily_steps.label }}</label>
+            {{ form.daily_steps }}
+            {{ form.daily_steps.errors }}
+          </div>
+          <div class="field">
+            <label>{{ form.sleep_hours.label }}</label>
+            {{ form.sleep_hours }}
+            {{ form.sleep_hours.errors }}
+          </div>
+          <div class="field">
+            <label>{{ form.stress_level.label }}</label>
+            {{ form.stress_level }}
+            {{ form.stress_level.errors }}
+          </div>
+        </div>
+      </div>
+
+      <!-- Medical History -->
+      <div class="card">
+        <h2> Medical History</h2>
+        <div class="grid">
+          <div class="field">
+            <label>{{ form.doctor_visits_per_year.label }}</label>
+            {{ form.doctor_visits_per_year }}
+            {{ form.doctor_visits_per_year.errors }}
+          </div>
+          <div class="field">
+            <label>{{ form.hospital_admissions.label }}</label>
+            {{ form.hospital_admissions }}
+            {{ form.hospital_admissions.errors }}
+          </div>
+          <div class="field">
+            <label>{{ form.medication_count.label }}</label>
+            {{ form.medication_count }}
+            {{ form.medication_count.errors }}
+          </div>
+          <div class="field">
+            <label>{{ form.previous_year_cost.label }}</label>
+            {{ form.previous_year_cost }}
+            {{ form.previous_year_cost.errors }}
+          </div>
+        </div>
+      </div>
+
+      <!-- Insurance -->
+      <div class="card">
+        <h2> Insurance Details</h2>
+        <div class="grid">
+          <div class="field">
+            <label>{{ form.insurance_type.label }}</label>
+            {{ form.insurance_type }}
+            {{ form.insurance_type.errors }}
+          </div>
+          <div class="field">
+            <label>{{ form.insurance_coverage_pct.label }}</label>
+            {{ form.insurance_coverage_pct }}
+            {{ form.insurance_coverage_pct.errors }}
+          </div>
+        </div>
+      </div>
+
+      <div class="btn-wrap">
+        <button type="submit"> Predict Medical Cost</button>
+      </div>
+    </form>
+
+  </div>
+</body>
+</html>
