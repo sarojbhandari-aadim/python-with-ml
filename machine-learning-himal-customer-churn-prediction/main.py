@@ -1,6 +1,7 @@
 from src.data_preprocessing import load_data, show_basic_info, clean_data, convert_target, encode_data, encode_all
 
 from src.train_model import train
+from src.predict import predict
 
 data = load_data()
 
@@ -25,3 +26,4 @@ model, accuracy = train(data)
 print("\n Model train successfully")
 print("Accuracy: ", accuracy) 
 
+predict()

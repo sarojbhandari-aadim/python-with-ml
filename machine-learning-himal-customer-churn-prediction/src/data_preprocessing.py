@@ -18,11 +18,16 @@ def show_basic_info(data):
     print(data.isnull().sum())
 
 def clean_data(data):
-    data['TotalCharges'] = pd.to_numeric(data['TotalCharges'], errors = 'coerce')
+    data['TotalCharges'] = pd.to_numeric(data['TotalCharges'], errors='coerce')
 
     data = data.dropna()
 
-    data = data.drop('customerID', axis = 1)
+    # Keep only the features that we ask the user for, plus the target variable
+    features_to_keep = [
+        'gender', 'SeniorCitizen', 'Partner', 'Dependents', 'tenure',
+        'PhoneService', 'PaperlessBilling', 'MonthlyCharges', 'TotalCharges', 'Churn'
+    ]
+    data = data[features_to_keep]
 
     return data
 
