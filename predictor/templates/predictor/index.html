@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Smart Crop Yield Predictor</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+    <style>
+        body { background-color: #f0f2f5; font-family: 'Segoe UI', sans-serif; }
+        .main-card { border-radius: 12px; border: none; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+        .guide-card { background: white; border-left: 5px solid #28a745; border-radius: 10px; }
+        .btn-predict { background-color: #28a745; color: white; font-weight: bold; padding: 12px; border: none; border-radius: 8px; transition: 0.2s; }
+        .btn-predict:hover { background-color: #1e7e34; }
+        
+        /* Making placeholders duller than normal text */
+        ::placeholder { color: #adb5bd !important; opacity: 0.8 !important; font-weight: 400; }
+        .help-text { font-size: 0.8rem; color: #868e96; }
+
+        /* Select2 Styling to match Bootstrap */
+        .select2-container--default .select2-selection--single { 
+            height: 38px; border: 1px solid #dee2e6; border-radius: 6px; 
+        }
+    </style>
+</head>
+<body class="py-5">
+    <div class="container">
+        <header class="text-center mb-5">
+            <h1 class="fw-bold text-success"><img src="https://img.icons8.com/?size=160&id=3rJflgVgqqpA&format=png" alt="" style="width: 50px; height: 50px;"> Smart Crop Yield Predictor</h1>
+            <p class="text-muted">Fill in the environmental details to get your prediction.</p>
+        </header>
+
+        <div class="row g-4">
+            <div class="col-lg-7">
+                <div class="card main-card p-4">
+                    {% if messages %}
+                    {% for message in messages %}
+                   <div class="alert alert-danger small p-2 text-center">{{ message }}</div>
+                   {% endfor %}
+                   {% endif %}
+                    <form method="post">
+                        
+                        {% csrf_token %}
+                        <div class="row">
+                            {% for field in form %}
+                            <div class="col-md-6 mb-3">
+                                <label class="form-label small fw-bold text-dark">{{ field.label }}</label>
+                                {{ field }}
+                                {% if field.help_text %}
+                                    <div class="help-text mt-1">{{ field.help_text }}</div>
+                                {% endif %}
+                            </div>
+                            {% endfor %}
+                        </div>
+                        <button type="submit" class="btn-predict w-100 mt-2">CALCULATE YIELD</button>
+                    </form>
+
+                    <!-- {% if result %}
+                 <div class="mt-4 p-3 bg-white border rounded text-center shadow-sm">
+    <small class="text-muted d-block mb-1">Estimated Yield Outcome:</small>
+    <h2 class="text-success fw-bold m-0">{{ result }}</h2>
+    <a href="{{ request.path }}" class="btn btn-link btn-sm text-decoration-none text-muted">Clear</a>
+                 </div>
+                 {% endif %} -->
+
+                    {% if result %}
+                    <div class="mt-4 p-3 bg-white border rounded text-center shadow-sm">
+                        <small class="text-muted d-block mb-1">Estimated Yield Outcome:</small>
+                        <h2 class="text-success fw-bold m-0">{{ result }}</h2>
+                    </div>
+                    {% endif %}
+                </div>
+            </div>
+
+            <div class="col-lg-5">
+                <div class="card guide-card p-4 mb-4 shadow-sm">
+                    <h6 class="text-success fw-bold text-uppercase small">📖 Input Guide</h6>
+                    <hr class="my-2">
+                    <ul class="list-unstyled small mb-0" style="line-height: 1.8;">
+                        <li><strong>Country:</strong> Searchable dropdown (e.g., Nepal).</li>
+                        <li><strong>Crop:</strong> Choose the target crop type.</li>
+                        <li><strong>Rainfall:</strong> Annual average in mm.</li>
+                        <li><strong>Pesticides:</strong> Total used in metric tonnes.</li>
+                        <li><strong>Temp:</strong> Yearly mean temperature in °C.</li>
+                    </ul>
+                </div>
+
+                <div class="p-4 bg-light rounded shadow-sm">
+                    <h6 class="fw-bold text-dark small text-uppercase">💡 Unit Information</h6>
+                    <p class="small text-muted mb-0">
+                        <strong>hg/ha</strong> (Hectograms per Hectare) is the standard ML output. 
+                        To get <strong>kg/ha</strong>, simply divide the result by 10.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.select2-dropdown').select2({
+                width: '100%',
+                placeholder: "Search country or crop..."
+            });
+        });
+    </script>
+</body>
+</html>
