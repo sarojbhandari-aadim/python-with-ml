@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Fraud Detection</title>
@@ -20,7 +21,7 @@
             width: 420px;
             border: none;
             border-radius: 16px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
         }
 
         .title {
@@ -50,76 +51,78 @@
 
 <body>
 
-<div class="card p-4 bg-white">
+    <div class="card p-4 bg-white">
 
-    <h3 class="title mb-3">Credit Card Fraud Detection System</h3>
+        <h3 class="title mb-3">Credit Card Fraud Detection System</h3>
 
-    <form method="POST">
-        {% csrf_token %}
+        <form method="POST">
+            {% csrf_token %}
 
-      <div class="mb-3">
-    <label class="form-label">Merchant Id:</label>
-<input type="number" name="merchant_id" required>
-</div>
-
-
-        <div class="mb-3">
-              <label class="form-label">   Transaction Type:</label>
-     
-<select name="transaction_type">
-    <option value="normal">Normal</option>
-    <option value="refund">Refund</option>
-</select>    
-        </div>
+            <div class="mb-3">
+                <label class="form-label">Merchant Id:</label>
+                <input type="number" step="0.01" class="form-control" name="merchant_id" required>
+            </div>
 
 
-        <div class="mb-3">
-    <label class="form-label">Amount:</label>
-            
-            <input type="number" step="0.01" class="form-control" name="amount" placeholder="Enter transaction amount" required>
-        </div>
+            <div class="mb-3">
+                <label class="form-label"> Transaction Type:</label>
 
-        <div class="mb-3">
-            <label class="form-label">Hour</label>
-            <input type="number" class="form-control" name="hour" placeholder="0 - 23" required>
-        </div>
+                <select name="transaction_type">
+                    <option value="normal">Normal</option>
+                    <option value="refund">Refund</option>
+                </select>
+            </div>
 
-        <div class="mb-3">
-            <label class="form-label">Day</label>
-            <input type="text" class="form-control" name="day" placeholder="e.g. monday" required>
-        </div>
 
-       <div class="mb-3">
-         <label class="form-label">  Location:</label>
-<select name="location">
-    <option value="Dallas">Dallas</option>
-    <option value="Houston">Houston</option>
-    <option value="Los Angeles">Los Angeles</option>
-    <option value="New York">New York</option>
-    <option value="Philadelphia">Philadelphia</option>
-    <option value="Phoenix">Phoenix</option>
-    <option value="San Antonio">San Antonio</option>
-    <option value="San Diego">San Diego</option>
-    <option value="San Jose">San Jose</option>
-</select>
-</div>
+            <div class="mb-3">
+                <label class="form-label">Amount:</label>
 
-        <button class="btn btn-dark w-100">Predict</button>
-    </form>
+                <input type="number" step="0.01" class="form-control" name="amount"
+                    placeholder="Enter transaction amount" required>
+            </div>
 
-    {% if result is not None %}
+            <div class="mb-3">
+                <label class="form-label">Hour</label>
+                <input type="number" class="form-control" name="hour" placeholder="0 - 23" required>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Day</label>
+                <input type="text" class="form-control" name="day" placeholder="e.g. monday" required>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label"> Location:</label>
+                <select name="location">
+                    <option value="Dallas">Dallas</option>
+                    <option value="Houston">Houston</option>
+                    <option value="Los Angeles">Los Angeles</option>
+                    <option value="New York">New York</option>
+                    <option value="Philadelphia">Philadelphia</option>
+                    <option value="Phoenix">Phoenix</option>
+                    <option value="San Antonio">San Antonio</option>
+                    <option value="San Diego">San Diego</option>
+                    <option value="San Jose">San Jose</option>
+                </select>
+            </div>
+
+            <button class="btn btn-dark w-100">Predict</button>
+        </form>
+
+        {% if result is not None %}
         {% if result == 1 %}
-            <div class="result-box fraud mt-3">
-                ⚠ Fraud Transaction Detected
-            </div>
+        <div class="result-box fraud mt-3">
+             Fraud Transaction Detected
+        </div>
         {% else %}
-            <div class="result-box safe mt-3">
-                ✅ Transaction is Safe
-            </div>
+        <div class="result-box safe mt-3">
+             Transaction is Safe
+        </div>
         {% endif %}
-    {% endif %}
+        {% endif %}
 
-</div>
+    </div>
 
 </body>
+
 </html>
