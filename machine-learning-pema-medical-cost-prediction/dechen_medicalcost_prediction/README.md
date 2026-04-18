@@ -21,28 +21,32 @@ A Django web application that predicts the estimated annual medical cost of a pa
 * Maximum Cost: $44,792.10
 * Average Cost: $8,048.89
 
+
+##  Dataset Description
 * Input Features (19 columns)
-Column                   |	Type	          |Description
-age                      |	Number	          | Patient age in years
-gender                   |	Text	          |Male or Female
-bmi	                     |Number	          |Body Mass Index (weight/height²)
-smoker                   |Text	              |Yes or No
-diabetes                 |	0 or 1	          |Has diabetes or not
-hypertension	         |0 or 1	          |Has high blood pressure or not
-heart_disease	         |0 or 1	          |Has heart disease or not
-asthma	                 |0 or 1	          |Has asthma or not
-physical_activity_level	 |Text	              |Low / Medium / High
-daily_steps	             |Number	          |Average steps walked per day
-sleep_hours	             |Number	          |Hours of sleep per day
-stress_level	         |Number	          |Stress level from 1 to 10
-doctor_visits_per_year	 |Number	          |Number of doctor visits per year
-hospital_admissions 	 |Number	          |Times admitted to hospital
-medication_count	     |Number	          |Number of regular medicines taken
-insurance_type	         |Text	              |None / Government / Private
-insurance_coverage_pct	 |Number	          |Percentage covered by insurance
-city_type	             |Text	              |Urban / Semi-Urban / Rural
-previous_year_cost	     |Number	          |Medical cost from previous year ($)
-annual_medical_cost	     |Number (Float)	  |Predicted annual medical cost in USD (model predicts this) 
+
+| Column Name | Type | Description |
+|------------|------|-------------|
+| age | Number | Patient age in years |
+| gender | Text | Male or Female |
+| bmi | Number | Body Mass Index (weight/height²) |
+| smoker | Text | Yes or No |
+| diabetes | 0 or 1 | Has diabetes or not |
+| hypertension | 0 or 1 | Has high blood pressure or not |
+| heart_disease | 0 or 1 | Has heart disease or not |
+| asthma | 0 or 1 | Has asthma or not |
+| physical_activity_level | Text | Low / Medium / High |
+| daily_steps | Number | Average steps walked per day |
+| sleep_hours | Number | Hours of sleep per day |
+| stress_level | Number | Stress level from 1 to 10 |
+| doctor_visits_per_year | Number | Number of doctor visits per year |
+| hospital_admissions | Number | Times admitted to hospital |
+| medication_count | Number | Number of regular medicines taken |
+| insurance_type | Text | None / Government / Private |
+| insurance_coverage_pct | Number | Percentage covered by insurance |
+| city_type | Text | Urban / Semi-Urban / Rural |
+| previous_year_cost | Number | Medical cost from previous year ($) |
+| annual_medical_cost | Float | Target variable (predicted annual cost) |
 
 
 ## Installation
