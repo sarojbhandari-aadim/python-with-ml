@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sales Forecasting</title>
+</head>
+<body>
+
+    <h1>Sales Forecasting Model</h1>
+
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Predict</button>
+    </form>
+
+    {% if result %}
+    <h3>Predicted Sales (per order): ${{ result|floatformat:2 }}</h3>
+    {% endif %}
+
+</body>
+</html>
