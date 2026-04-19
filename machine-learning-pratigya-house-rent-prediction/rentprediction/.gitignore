@@ -1,0 +1,15 @@
+
+venv/
+
+model.pkl
+
+__pycache__/
+*.pyc
+*.pyo
+
+db.sqlite3
+
+.vscode/
+
+
+Thumbs.db
