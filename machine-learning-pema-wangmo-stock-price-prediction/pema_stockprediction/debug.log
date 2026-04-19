@@ -1,0 +1,287 @@
+INFO 2026-04-18 23:14:52,610 autoreload 9520 2464 Watching for file changes with StatReloader
+INFO 2026-04-18 23:14:58,031 ml_service 9520 2464 Loaded 253 rows from TESLA.csv
+INFO 2026-04-18 23:14:58,590 ml_service 9520 2464 Models trained successfully
+INFO 2026-04-18 23:16:38,506 ml_service 6080 19120 Loaded 253 rows from TESLA.csv
+INFO 2026-04-18 23:16:38,661 ml_service 6080 19120 Models trained successfully
+INFO 2026-04-18 23:20:28,532 autoreload 6512 8620 Watching for file changes with StatReloader
+INFO 2026-04-18 23:20:30,895 ml_service 6512 8620 Loaded 253 rows from TESLA.csv
+INFO 2026-04-18 23:20:31,052 ml_service 6512 8620 Models trained successfully
+INFO 2026-04-18 23:20:43,573 ml_service 9520 1232 Loaded 253 rows from TESLA.csv
+INFO 2026-04-18 23:20:43,575 views 9520 1232 Loaded latest stock data: 2022-09-29
+INFO 2026-04-18 23:21:03,522 ml_service 9520 1232 Loaded 253 rows from TESLA.csv
+INFO 2026-04-18 23:21:03,526 views 9520 1232 Loaded latest stock data: 2022-09-29
+INFO 2026-04-18 23:21:03,578 ml_service 9520 1232 Loaded 253 rows from TESLA.csv
+INFO 2026-04-18 23:21:03,622 ml_service 9520 1232 Loaded 253 rows from TESLA.csv
+INFO 2026-04-18 23:21:03,668 ml_service 9520 1232 Loaded 253 rows from TESLA.csv
+INFO 2026-04-18 23:21:03,676 views 9520 1232 Prediction successful: Open=$120.0, Predicted=$120.384
+INFO 2026-04-18 23:25:12,973 autoreload 9520 2464 C:\Users\ACER\OneDrive\Desktop\PemaWangmo_mlproject\python-with-ml\machine-learning-pema-wangmo-stock-price-prediction\pema_stockprediction\predictor\urls.py changed, reloading.
+INFO 2026-04-18 23:25:12,995 autoreload 6512 8620 C:\Users\ACER\OneDrive\Desktop\PemaWangmo_mlproject\python-with-ml\machine-learning-pema-wangmo-stock-price-prediction\pema_stockprediction\predictor\urls.py changed, reloading.
+INFO 2026-04-18 23:25:14,672 autoreload 10104 19644 Watching for file changes with StatReloader
+INFO 2026-04-18 23:25:14,673 autoreload 5820 21740 Watching for file changes with StatReloader
+INFO 2026-04-18 23:25:17,759 ml_service 10104 19644 Loaded 253 rows from TESLA.csv
+INFO 2026-04-18 23:25:17,759 ml_service 5820 21740 Loaded 253 rows from TESLA.csv
+INFO 2026-04-18 23:25:17,968 ml_service 5820 21740 Models trained successfully
+INFO 2026-04-18 23:25:17,971 ml_service 10104 19644 Models trained successfully
+INFO 2026-04-18 23:25:24,246 autoreload 5820 21740 C:\Users\ACER\OneDrive\Desktop\PemaWangmo_mlproject\python-with-ml\machine-learning-pema-wangmo-stock-price-prediction\pema_stockprediction\predictor\views.py changed, reloading.
+INFO 2026-04-18 23:25:24,273 autoreload 10104 19644 C:\Users\ACER\OneDrive\Desktop\PemaWangmo_mlproject\python-with-ml\machine-learning-pema-wangmo-stock-price-prediction\pema_stockprediction\predictor\views.py changed, reloading.
+INFO 2026-04-18 23:25:25,688 autoreload 13800 8528 Watching for file changes with StatReloader
+INFO 2026-04-18 23:25:25,706 autoreload 12172 17776 Watching for file changes with StatReloader
+INFO 2026-04-18 23:25:28,653 ml_service 13800 8528 Loaded 253 rows from TESLA.csv
+INFO 2026-04-18 23:25:28,663 ml_service 12172 17776 Loaded 253 rows from TESLA.csv
+INFO 2026-04-18 23:25:28,817 ml_service 13800 8528 Models trained successfully
+INFO 2026-04-18 23:25:28,837 ml_service 12172 17776 Models trained successfully
+INFO 2026-04-18 23:25:31,024 autoreload 12172 17776 C:\Users\ACER\OneDrive\Desktop\PemaWangmo_mlproject\python-with-ml\machine-learning-pema-wangmo-stock-price-prediction\pema_stockprediction\predictor\views.py changed, reloading.
+INFO 2026-04-18 23:25:32,052 autoreload 13800 8528 C:\Users\ACER\OneDrive\Desktop\PemaWangmo_mlproject\python-with-ml\machine-learning-pema-wangmo-stock-price-prediction\pema_stockprediction\predictor\views.py changed, reloading.
+INFO 2026-04-18 23:25:32,575 autoreload 9412 7028 Watching for file changes with StatReloader
+INFO 2026-04-18 23:25:33,510 autoreload 3160 16452 Watching for file changes with StatReloader
+INFO 2026-04-18 23:25:35,632 ml_service 9412 7028 Loaded 253 rows from TESLA.csv
+INFO 2026-04-18 23:25:35,800 ml_service 9412 7028 Models trained successfully
+INFO 2026-04-18 23:25:36,575 ml_service 3160 16452 Loaded 253 rows from TESLA.csv
+INFO 2026-04-18 23:25:36,736 ml_service 3160 16452 Models trained successfully
+INFO 2026-04-18 23:25:50,162 autoreload 3160 16452 C:\Users\ACER\OneDrive\Desktop\PemaWangmo_mlproject\python-with-ml\machine-learning-pema-wangmo-stock-price-prediction\pema_stockprediction\stock_project\settings.py changed, reloading.
+INFO 2026-04-18 23:25:50,575 autoreload 9412 7028 C:\Users\ACER\OneDrive\Desktop\PemaWangmo_mlproject\python-with-ml\machine-learning-pema-wangmo-stock-price-prediction\pema_stockprediction\stock_project\settings.py changed, reloading.
+INFO 2026-04-18 23:25:52,053 autoreload 10316 15728 Watching for file changes with StatReloader
+INFO 2026-04-18 23:25:52,300 autoreload 10352 9688 Watching for file changes with StatReloader
+INFO 2026-04-18 23:25:55,380 ml_service 10316 15728 Loaded 253 rows from TESLA.csv
+INFO 2026-04-18 23:25:55,552 ml_service 10352 9688 Loaded 253 rows from TESLA.csv
+INFO 2026-04-18 23:25:55,574 ml_service 10316 15728 Models trained successfully
+INFO 2026-04-18 23:25:55,723 ml_service 10352 9688 Models trained successfully
+INFO 2026-04-18 23:25:58,842 autoreload 10316 15728 C:\Users\ACER\OneDrive\Desktop\PemaWangmo_mlproject\python-with-ml\machine-learning-pema-wangmo-stock-price-prediction\pema_stockprediction\stock_project\settings.py changed, reloading.
+INFO 2026-04-18 23:25:58,914 autoreload 10352 9688 C:\Users\ACER\OneDrive\Desktop\PemaWangmo_mlproject\python-with-ml\machine-learning-pema-wangmo-stock-price-prediction\pema_stockprediction\stock_project\settings.py changed, reloading.
+INFO 2026-04-18 23:26:00,309 autoreload 5552 2900 Watching for file changes with StatReloader
+INFO 2026-04-18 23:26:00,335 autoreload 19192 3948 Watching for file changes with StatReloader
+INFO 2026-04-18 23:26:03,144 ml_service 5552 2900 Loaded 253 rows from TESLA.csv
+INFO 2026-04-18 23:26:03,144 ml_service 19192 3948 Loaded 253 rows from TESLA.csv
+INFO 2026-04-18 23:26:03,314 ml_service 5552 2900 Models trained successfully
+INFO 2026-04-18 23:26:03,331 ml_service 19192 3948 Models trained successfully
+INFO 2026-04-18 23:26:05,596 autoreload 5552 2900 C:\Users\ACER\OneDrive\Desktop\PemaWangmo_mlproject\python-with-ml\machine-learning-pema-wangmo-stock-price-prediction\pema_stockprediction\stock_project\settings.py changed, reloading.
+INFO 2026-04-18 23:26:05,624 autoreload 19192 3948 C:\Users\ACER\OneDrive\Desktop\PemaWangmo_mlproject\python-with-ml\machine-learning-pema-wangmo-stock-price-prediction\pema_stockprediction\stock_project\settings.py changed, reloading.
+INFO 2026-04-18 23:26:07,290 autoreload 17940 21396 Watching for file changes with StatReloader
+INFO 2026-04-18 23:26:07,296 autoreload 3536 22216 Watching for file changes with StatReloader
+INFO 2026-04-18 23:26:10,068 ml_service 17940 21396 Loaded 253 rows from TESLA.csv
+INFO 2026-04-18 23:26:10,070 ml_service 3536 22216 Loaded 253 rows from TESLA.csv
+INFO 2026-04-18 23:26:10,254 ml_service 17940 21396 Models trained successfully
+INFO 2026-04-18 23:26:10,265 ml_service 3536 22216 Models trained successfully
+INFO 2026-04-18 23:26:17,762 autoreload 3536 22216 C:\Users\ACER\OneDrive\Desktop\PemaWangmo_mlproject\python-with-ml\machine-learning-pema-wangmo-stock-price-prediction\pema_stockprediction\stock_project\settings.py changed, reloading.
+INFO 2026-04-18 23:26:17,784 autoreload 17940 21396 C:\Users\ACER\OneDrive\Desktop\PemaWangmo_mlproject\python-with-ml\machine-learning-pema-wangmo-stock-price-prediction\pema_stockprediction\stock_project\settings.py changed, reloading.
+INFO 2026-04-18 23:26:19,352 autoreload 2296 19380 Watching for file changes with StatReloader
+INFO 2026-04-18 23:26:19,353 autoreload 12408 3388 Watching for file changes with StatReloader
+INFO 2026-04-18 23:26:22,054 ml_service 2296 19380 Loaded 253 rows from TESLA.csv
+INFO 2026-04-18 23:26:22,059 ml_service 12408 3388 Loaded 253 rows from TESLA.csv
+INFO 2026-04-18 23:26:22,231 ml_service 2296 19380 Models trained successfully
+INFO 2026-04-18 23:26:22,236 ml_service 12408 3388 Models trained successfully
+INFO 2026-04-18 23:26:27,395 autoreload 2296 19380 C:\Users\ACER\OneDrive\Desktop\PemaWangmo_mlproject\python-with-ml\machine-learning-pema-wangmo-stock-price-prediction\pema_stockprediction\stock_project\settings.py changed, reloading.
+INFO 2026-04-18 23:26:27,471 autoreload 12408 3388 C:\Users\ACER\OneDrive\Desktop\PemaWangmo_mlproject\python-with-ml\machine-learning-pema-wangmo-stock-price-prediction\pema_stockprediction\stock_project\settings.py changed, reloading.
+INFO 2026-04-18 23:26:28,881 autoreload 10068 3816 Watching for file changes with StatReloader
+INFO 2026-04-18 23:26:28,882 autoreload 8776 376 Watching for file changes with StatReloader
+INFO 2026-04-18 23:26:31,535 ml_service 8776 376 Loaded 253 rows from TESLA.csv
+INFO 2026-04-18 23:26:31,535 ml_service 10068 3816 Loaded 253 rows from TESLA.csv
+INFO 2026-04-18 23:26:31,727 ml_service 8776 376 Models trained successfully
+INFO 2026-04-18 23:26:31,736 ml_service 10068 3816 Models trained successfully
+INFO 2026-04-18 23:26:38,027 autoreload 8776 376 C:\Users\ACER\OneDrive\Desktop\PemaWangmo_mlproject\python-with-ml\machine-learning-pema-wangmo-stock-price-prediction\pema_stockprediction\stock_project\settings.py changed, reloading.
+INFO 2026-04-18 23:26:38,040 autoreload 10068 3816 C:\Users\ACER\OneDrive\Desktop\PemaWangmo_mlproject\python-with-ml\machine-learning-pema-wangmo-stock-price-prediction\pema_stockprediction\stock_project\settings.py changed, reloading.
+INFO 2026-04-18 23:26:39,605 autoreload 3368 18248 Watching for file changes with StatReloader
+INFO 2026-04-18 23:26:39,605 autoreload 7656 13788 Watching for file changes with StatReloader
+INFO 2026-04-18 23:26:42,359 ml_service 7656 13788 Loaded 253 rows from TESLA.csv
+INFO 2026-04-18 23:26:42,362 ml_service 3368 18248 Loaded 253 rows from TESLA.csv
+INFO 2026-04-18 23:26:42,534 ml_service 7656 13788 Models trained successfully
+INFO 2026-04-18 23:26:42,543 ml_service 3368 18248 Models trained successfully
+INFO 2026-04-18 23:27:45,041 ml_service 7656 20496 Loaded 253 rows from TESLA.csv
+INFO 2026-04-18 23:27:45,046 views 7656 20496 Loaded latest stock data: 2022-09-29
+INFO 2026-04-18 23:27:45,077 ml_service 7656 20496 Loaded 253 rows from TESLA.csv
+INFO 2026-04-18 23:27:45,097 ml_service 7656 20496 Loaded 253 rows from TESLA.csv
+INFO 2026-04-18 23:27:45,119 ml_service 7656 20496 Loaded 253 rows from TESLA.csv
+INFO 2026-04-18 23:27:45,123 views 7656 20496 Prediction successful: Open=$120.0, Predicted=$120.384
+INFO 2026-04-18 23:28:11,247 ml_service 7656 20496 Loaded 253 rows from TESLA.csv
+INFO 2026-04-18 23:28:11,256 views 7656 20496 Loaded latest stock data: 2022-09-29
+INFO 2026-04-18 23:28:11,315 ml_service 7656 20496 Loaded 253 rows from TESLA.csv
+INFO 2026-04-18 23:28:11,370 ml_service 7656 20496 Loaded 253 rows from TESLA.csv
+INFO 2026-04-18 23:28:11,416 ml_service 7656 20496 Loaded 253 rows from TESLA.csv
+INFO 2026-04-18 23:28:11,425 views 7656 20496 Prediction successful: Open=$120.0, Predicted=$120.384
+INFO 2026-04-18 23:28:38,750 ml_service 7656 20496 Loaded 253 rows from TESLA.csv
+INFO 2026-04-18 23:28:38,755 views 7656 20496 Loaded latest stock data: 2022-09-29
+INFO 2026-04-18 23:28:38,800 ml_service 7656 20496 Loaded 253 rows from TESLA.csv
+INFO 2026-04-18 23:28:38,857 ml_service 7656 20496 Loaded 253 rows from TESLA.csv
+INFO 2026-04-18 23:28:38,890 ml_service 7656 20496 Loaded 253 rows from TESLA.csv
+INFO 2026-04-18 23:28:38,893 views 7656 20496 Prediction successful: Open=$120.0, Predicted=$120.384
+INFO 2026-04-18 23:29:10,221 ml_service 7656 20496 Loaded 253 rows from TESLA.csv
+INFO 2026-04-18 23:29:10,224 views 7656 20496 Loaded latest stock data: 2022-09-29
+INFO 2026-04-18 23:29:10,248 ml_service 7656 20496 Loaded 253 rows from TESLA.csv
+INFO 2026-04-18 23:29:10,271 ml_service 7656 20496 Loaded 253 rows from TESLA.csv
+INFO 2026-04-18 23:29:10,306 ml_service 7656 20496 Loaded 253 rows from TESLA.csv
+INFO 2026-04-18 23:29:10,308 views 7656 20496 Prediction successful: Open=$120.0, Predicted=$120.384
+INFO 2026-04-18 23:33:58,382 ml_service 7656 20496 Loaded 253 rows from TESLA.csv
+INFO 2026-04-18 23:33:58,388 views 7656 20496 Loaded latest stock data: 2022-09-29
+INFO 2026-04-18 23:33:58,430 ml_service 7656 20496 Loaded 253 rows from TESLA.csv
+INFO 2026-04-18 23:33:58,479 ml_service 7656 20496 Loaded 253 rows from TESLA.csv
+INFO 2026-04-18 23:33:58,534 ml_service 7656 20496 Loaded 253 rows from TESLA.csv
+INFO 2026-04-18 23:33:58,543 views 7656 20496 Prediction successful: Open=$120.0, Predicted=$120.384
+INFO 2026-04-18 23:34:37,163 ml_service 7656 20496 Loaded 253 rows from TESLA.csv
+INFO 2026-04-18 23:34:37,171 views 7656 20496 Loaded latest stock data: 2022-09-29
+INFO 2026-04-18 23:34:37,212 ml_service 7656 20496 Loaded 253 rows from TESLA.csv
+INFO 2026-04-18 23:34:37,266 ml_service 7656 20496 Loaded 253 rows from TESLA.csv
+INFO 2026-04-18 23:34:37,315 ml_service 7656 20496 Loaded 253 rows from TESLA.csv
+INFO 2026-04-18 23:34:37,322 views 7656 20496 Prediction successful: Open=$120.0, Predicted=$120.384
+INFO 2026-04-18 23:35:08,674 ml_service 7656 20496 Loaded 253 rows from TESLA.csv
+INFO 2026-04-18 23:35:08,680 views 7656 20496 Loaded latest stock data: 2022-09-29
+INFO 2026-04-18 23:35:08,714 ml_service 7656 20496 Loaded 253 rows from TESLA.csv
+INFO 2026-04-18 23:35:08,756 ml_service 7656 20496 Loaded 253 rows from TESLA.csv
+INFO 2026-04-18 23:35:08,811 ml_service 7656 20496 Loaded 253 rows from TESLA.csv
+INFO 2026-04-18 23:35:08,818 views 7656 20496 Prediction successful: Open=$120.0, Predicted=$120.384
+INFO 2026-04-18 23:35:36,228 ml_service 7656 20496 Loaded 253 rows from TESLA.csv
+INFO 2026-04-18 23:35:36,240 views 7656 20496 Loaded latest stock data: 2022-09-29
+INFO 2026-04-18 23:35:36,305 ml_service 7656 20496 Loaded 253 rows from TESLA.csv
+INFO 2026-04-18 23:35:36,366 ml_service 7656 20496 Loaded 253 rows from TESLA.csv
+INFO 2026-04-18 23:35:36,405 ml_service 7656 20496 Loaded 253 rows from TESLA.csv
+INFO 2026-04-18 23:35:36,414 views 7656 20496 Prediction successful: Open=$120.0, Predicted=$120.384
+INFO 2026-04-18 23:36:39,758 ml_service 7656 20496 Loaded 253 rows from TESLA.csv
+INFO 2026-04-18 23:36:39,761 views 7656 20496 Loaded latest stock data: 2022-09-29
+INFO 2026-04-18 23:36:39,780 ml_service 7656 20496 Loaded 253 rows from TESLA.csv
+INFO 2026-04-18 23:36:39,793 ml_service 7656 20496 Loaded 253 rows from TESLA.csv
+INFO 2026-04-18 23:36:39,814 ml_service 7656 20496 Loaded 253 rows from TESLA.csv
+INFO 2026-04-18 23:36:39,819 views 7656 20496 Prediction successful: Open=$120.0, Predicted=$120.384
+INFO 2026-04-18 23:36:47,761 ml_service 7656 20496 Loaded 253 rows from TESLA.csv
+INFO 2026-04-18 23:36:47,767 views 7656 20496 Loaded latest stock data: 2022-09-29
+INFO 2026-04-18 23:36:50,474 ml_service 7656 20496 Loaded 253 rows from TESLA.csv
+INFO 2026-04-18 23:36:50,481 views 7656 20496 Loaded latest stock data: 2022-09-29
+INFO 2026-04-18 23:37:15,729 ml_service 7656 20496 Loaded 253 rows from TESLA.csv
+INFO 2026-04-18 23:37:15,732 views 7656 20496 Loaded latest stock data: 2022-09-29
+INFO 2026-04-18 23:37:25,123 ml_service 7656 20496 Loaded 253 rows from TESLA.csv
+INFO 2026-04-18 23:37:25,132 views 7656 20496 Loaded latest stock data: 2022-09-29
+INFO 2026-04-18 23:37:31,443 ml_service 7656 20496 Loaded 253 rows from TESLA.csv
+INFO 2026-04-18 23:37:31,451 views 7656 20496 Loaded latest stock data: 2022-09-29
+INFO 2026-04-18 23:37:31,502 ml_service 7656 20496 Loaded 253 rows from TESLA.csv
+INFO 2026-04-18 23:37:31,564 ml_service 7656 20496 Loaded 253 rows from TESLA.csv
+INFO 2026-04-18 23:37:31,613 ml_service 7656 20496 Loaded 253 rows from TESLA.csv
+INFO 2026-04-18 23:37:31,619 views 7656 20496 Prediction successful: Open=$666.0, Predicted=$668.997
+INFO 2026-04-18 23:38:06,765 ml_service 7656 20496 Loaded 253 rows from TESLA.csv
+INFO 2026-04-18 23:38:06,770 views 7656 20496 Loaded latest stock data: 2022-09-29
+INFO 2026-04-18 23:38:06,821 ml_service 7656 20496 Loaded 253 rows from TESLA.csv
+INFO 2026-04-18 23:38:06,877 ml_service 7656 20496 Loaded 253 rows from TESLA.csv
+INFO 2026-04-18 23:38:06,928 ml_service 7656 20496 Loaded 253 rows from TESLA.csv
+INFO 2026-04-18 23:38:06,935 views 7656 20496 Prediction successful: Open=$100.0, Predicted=$100.32
+INFO 2026-04-18 23:38:55,147 ml_service 7656 20496 Loaded 253 rows from TESLA.csv
+INFO 2026-04-18 23:38:55,158 views 7656 20496 Loaded latest stock data: 2022-09-29
+INFO 2026-04-18 23:38:55,219 ml_service 7656 20496 Loaded 253 rows from TESLA.csv
+INFO 2026-04-18 23:38:55,274 ml_service 7656 20496 Loaded 253 rows from TESLA.csv
+INFO 2026-04-18 23:38:55,325 ml_service 7656 20496 Loaded 253 rows from TESLA.csv
+INFO 2026-04-18 23:38:55,333 views 7656 20496 Prediction successful: Open=$20.0, Predicted=$20.09
+INFO 2026-04-18 23:45:59,547 autoreload 7656 13788 C:\Users\ACER\OneDrive\Desktop\PemaWangmo_mlproject\python-with-ml\machine-learning-pema-wangmo-stock-price-prediction\pema_stockprediction\predictor\ml_service.py changed, reloading.
+INFO 2026-04-18 23:45:59,636 autoreload 3368 18248 C:\Users\ACER\OneDrive\Desktop\PemaWangmo_mlproject\python-with-ml\machine-learning-pema-wangmo-stock-price-prediction\pema_stockprediction\predictor\ml_service.py changed, reloading.
+INFO 2026-04-18 23:46:01,137 autoreload 14708 15616 Watching for file changes with StatReloader
+INFO 2026-04-18 23:46:01,138 autoreload 996 15956 Watching for file changes with StatReloader
+INFO 2026-04-18 23:47:10,673 autoreload 996 15956 C:\Users\ACER\OneDrive\Desktop\PemaWangmo_mlproject\python-with-ml\machine-learning-pema-wangmo-stock-price-prediction\pema_stockprediction\predictor\ml_service.py changed, reloading.
+INFO 2026-04-18 23:47:10,682 autoreload 14708 15616 C:\Users\ACER\OneDrive\Desktop\PemaWangmo_mlproject\python-with-ml\machine-learning-pema-wangmo-stock-price-prediction\pema_stockprediction\predictor\ml_service.py changed, reloading.
+INFO 2026-04-18 23:47:11,595 autoreload 18668 17888 Watching for file changes with StatReloader
+INFO 2026-04-18 23:47:11,597 autoreload 17316 15260 Watching for file changes with StatReloader
+INFO 2026-04-18 23:47:24,929 autoreload 18668 17888 C:\Users\ACER\OneDrive\Desktop\PemaWangmo_mlproject\python-with-ml\machine-learning-pema-wangmo-stock-price-prediction\pema_stockprediction\predictor\views.py changed, reloading.
+INFO 2026-04-18 23:47:24,933 autoreload 17316 15260 C:\Users\ACER\OneDrive\Desktop\PemaWangmo_mlproject\python-with-ml\machine-learning-pema-wangmo-stock-price-prediction\pema_stockprediction\predictor\views.py changed, reloading.
+INFO 2026-04-18 23:47:25,890 autoreload 15748 19024 Watching for file changes with StatReloader
+INFO 2026-04-18 23:47:25,891 autoreload 20464 19612 Watching for file changes with StatReloader
+INFO 2026-04-18 23:47:44,567 autoreload 20464 19612 C:\Users\ACER\OneDrive\Desktop\PemaWangmo_mlproject\python-with-ml\machine-learning-pema-wangmo-stock-price-prediction\pema_stockprediction\predictor\views.py changed, reloading.
+INFO 2026-04-18 23:47:44,571 autoreload 15748 19024 C:\Users\ACER\OneDrive\Desktop\PemaWangmo_mlproject\python-with-ml\machine-learning-pema-wangmo-stock-price-prediction\pema_stockprediction\predictor\views.py changed, reloading.
+INFO 2026-04-18 23:47:45,527 autoreload 10108 11276 Watching for file changes with StatReloader
+INFO 2026-04-18 23:47:45,528 autoreload 17888 15260 Watching for file changes with StatReloader
+INFO 2026-04-18 23:47:47,744 autoreload 10108 11276 C:\Users\ACER\OneDrive\Desktop\PemaWangmo_mlproject\python-with-ml\machine-learning-pema-wangmo-stock-price-prediction\pema_stockprediction\predictor\views.py changed, reloading.
+INFO 2026-04-18 23:47:47,749 autoreload 17888 15260 C:\Users\ACER\OneDrive\Desktop\PemaWangmo_mlproject\python-with-ml\machine-learning-pema-wangmo-stock-price-prediction\pema_stockprediction\predictor\views.py changed, reloading.
+INFO 2026-04-18 23:47:48,734 autoreload 12076 7052 Watching for file changes with StatReloader
+INFO 2026-04-18 23:47:48,738 autoreload 21392 17656 Watching for file changes with StatReloader
+INFO 2026-04-18 23:48:29,754 autoreload 12076 7052 C:\Users\ACER\OneDrive\Desktop\PemaWangmo_mlproject\python-with-ml\machine-learning-pema-wangmo-stock-price-prediction\pema_stockprediction\predictor\ml_service.py changed, reloading.
+INFO 2026-04-18 23:48:29,754 autoreload 21392 17656 C:\Users\ACER\OneDrive\Desktop\PemaWangmo_mlproject\python-with-ml\machine-learning-pema-wangmo-stock-price-prediction\pema_stockprediction\predictor\ml_service.py changed, reloading.
+INFO 2026-04-18 23:48:31,124 autoreload 4740 7076 Watching for file changes with StatReloader
+INFO 2026-04-18 23:48:31,125 autoreload 8208 7564 Watching for file changes with StatReloader
+INFO 2026-04-18 23:49:10,273 autoreload 4740 7076 C:\Users\ACER\OneDrive\Desktop\PemaWangmo_mlproject\python-with-ml\machine-learning-pema-wangmo-stock-price-prediction\pema_stockprediction\predictor\ml_service.py changed, reloading.
+INFO 2026-04-18 23:49:10,283 autoreload 8208 7564 C:\Users\ACER\OneDrive\Desktop\PemaWangmo_mlproject\python-with-ml\machine-learning-pema-wangmo-stock-price-prediction\pema_stockprediction\predictor\ml_service.py changed, reloading.
+INFO 2026-04-18 23:49:11,258 autoreload 11700 7244 Watching for file changes with StatReloader
+INFO 2026-04-18 23:49:11,260 autoreload 12172 18080 Watching for file changes with StatReloader
+INFO 2026-04-18 23:49:20,667 autoreload 11700 7244 C:\Users\ACER\OneDrive\Desktop\PemaWangmo_mlproject\python-with-ml\machine-learning-pema-wangmo-stock-price-prediction\pema_stockprediction\predictor\views.py changed, reloading.
+INFO 2026-04-18 23:49:20,668 autoreload 12172 18080 C:\Users\ACER\OneDrive\Desktop\PemaWangmo_mlproject\python-with-ml\machine-learning-pema-wangmo-stock-price-prediction\pema_stockprediction\predictor\views.py changed, reloading.
+INFO 2026-04-18 23:49:21,451 autoreload 7964 16200 Watching for file changes with StatReloader
+INFO 2026-04-18 23:49:21,453 autoreload 19880 5592 Watching for file changes with StatReloader
+INFO 2026-04-18 23:49:30,731 autoreload 7964 16200 C:\Users\ACER\OneDrive\Desktop\PemaWangmo_mlproject\python-with-ml\machine-learning-pema-wangmo-stock-price-prediction\pema_stockprediction\predictor\ml_service.py changed, reloading.
+INFO 2026-04-18 23:49:30,739 autoreload 19880 5592 C:\Users\ACER\OneDrive\Desktop\PemaWangmo_mlproject\python-with-ml\machine-learning-pema-wangmo-stock-price-prediction\pema_stockprediction\predictor\ml_service.py changed, reloading.
+INFO 2026-04-18 23:49:31,626 autoreload 21168 12876 Watching for file changes with StatReloader
+INFO 2026-04-18 23:49:31,626 autoreload 11844 6612 Watching for file changes with StatReloader
+INFO 2026-04-18 23:49:32,828 autoreload 11844 6612 C:\Users\ACER\OneDrive\Desktop\PemaWangmo_mlproject\python-with-ml\machine-learning-pema-wangmo-stock-price-prediction\pema_stockprediction\predictor\ml_service.py changed, reloading.
+INFO 2026-04-18 23:49:32,836 autoreload 21168 12876 C:\Users\ACER\OneDrive\Desktop\PemaWangmo_mlproject\python-with-ml\machine-learning-pema-wangmo-stock-price-prediction\pema_stockprediction\predictor\ml_service.py changed, reloading.
+INFO 2026-04-18 23:49:33,757 autoreload 21088 21836 Watching for file changes with StatReloader
+INFO 2026-04-18 23:49:33,758 autoreload 10248 20472 Watching for file changes with StatReloader
+INFO 2026-04-18 23:49:56,186 autoreload 21088 21836 C:\Users\ACER\OneDrive\Desktop\PemaWangmo_mlproject\python-with-ml\machine-learning-pema-wangmo-stock-price-prediction\pema_stockprediction\predictor\ml_service.py changed, reloading.
+INFO 2026-04-18 23:49:56,194 autoreload 10248 20472 C:\Users\ACER\OneDrive\Desktop\PemaWangmo_mlproject\python-with-ml\machine-learning-pema-wangmo-stock-price-prediction\pema_stockprediction\predictor\ml_service.py changed, reloading.
+INFO 2026-04-18 23:49:57,040 autoreload 1072 3672 Watching for file changes with StatReloader
+INFO 2026-04-18 23:49:57,041 autoreload 18752 19372 Watching for file changes with StatReloader
+INFO 2026-04-18 23:50:49,649 autoreload 18752 19372 C:\Users\ACER\OneDrive\Desktop\PemaWangmo_mlproject\python-with-ml\machine-learning-pema-wangmo-stock-price-prediction\pema_stockprediction\predictor\views.py changed, reloading.
+INFO 2026-04-18 23:50:49,649 autoreload 1072 3672 C:\Users\ACER\OneDrive\Desktop\PemaWangmo_mlproject\python-with-ml\machine-learning-pema-wangmo-stock-price-prediction\pema_stockprediction\predictor\views.py changed, reloading.
+INFO 2026-04-18 23:50:50,550 autoreload 22264 1232 Watching for file changes with StatReloader
+INFO 2026-04-18 23:50:50,550 autoreload 2916 13076 Watching for file changes with StatReloader
+INFO 2026-04-18 23:52:07,503 autoreload 2916 13076 C:\Users\ACER\OneDrive\Desktop\PemaWangmo_mlproject\python-with-ml\machine-learning-pema-wangmo-stock-price-prediction\pema_stockprediction\predictor\ml_service.py changed, reloading.
+INFO 2026-04-18 23:52:07,507 autoreload 22264 1232 C:\Users\ACER\OneDrive\Desktop\PemaWangmo_mlproject\python-with-ml\machine-learning-pema-wangmo-stock-price-prediction\pema_stockprediction\predictor\ml_service.py changed, reloading.
+INFO 2026-04-18 23:52:08,400 autoreload 2456 5596 Watching for file changes with StatReloader
+INFO 2026-04-18 23:52:08,404 autoreload 15956 18032 Watching for file changes with StatReloader
+INFO 2026-04-18 23:52:39,241 autoreload 17472 2428 Watching for file changes with StatReloader
+INFO 2026-04-18 23:52:52,912 ml_service 15956 8776 Loaded 253 rows from TESLA.csv
+INFO 2026-04-18 23:53:09,051 ml_service 15956 8776 Loaded 253 rows from TESLA.csv
+INFO 2026-04-18 23:53:09,092 views 15956 8776 Prediction successful: Open=$100.0, Predicted=$100.45
+INFO 2026-04-18 23:59:35,038 ml_service 15956 19304 Loaded 253 rows from TESLA.csv
+INFO 2026-04-18 23:59:35,046 views 15956 19304 Prediction successful: Open=$259.93, Predicted=$261.0997
+INFO 2026-04-19 00:00:20,391 ml_service 15956 19304 Loaded 253 rows from TESLA.csv
+INFO 2026-04-19 00:00:20,393 views 15956 19304 Prediction successful: Open=$220.0, Predicted=$220.99
+INFO 2026-04-19 00:00:42,467 ml_service 15956 19304 Loaded 253 rows from TESLA.csv
+INFO 2026-04-19 00:00:42,470 views 15956 19304 Prediction successful: Open=$280.06, Predicted=$280.9562
+INFO 2026-04-19 00:01:40,164 ml_service 15956 19304 Loaded 253 rows from TESLA.csv
+INFO 2026-04-19 00:01:40,166 views 15956 19304 Prediction successful: Open=$260.33, Predicted=$261.1631
+INFO 2026-04-19 10:03:09,396 autoreload 2356 16340 Watching for file changes with StatReloader
+INFO 2026-04-19 10:04:22,903 autoreload 2356 16340 C:\Users\ACER\OneDrive\Desktop\PemaWangmo_mlproject\python-with-ml\machine-learning-pema-wangmo-stock-price-prediction\pema_stockprediction\predictor\views.py changed, reloading.
+INFO 2026-04-19 10:04:25,187 autoreload 21048 12356 Watching for file changes with StatReloader
+INFO 2026-04-19 10:04:44,759 autoreload 21048 12356 C:\Users\ACER\OneDrive\Desktop\PemaWangmo_mlproject\python-with-ml\machine-learning-pema-wangmo-stock-price-prediction\pema_stockprediction\predictor\views.py changed, reloading.
+INFO 2026-04-19 10:04:45,627 autoreload 9184 10216 Watching for file changes with StatReloader
+INFO 2026-04-19 10:04:47,044 autoreload 9184 10216 C:\Users\ACER\OneDrive\Desktop\PemaWangmo_mlproject\python-with-ml\machine-learning-pema-wangmo-stock-price-prediction\pema_stockprediction\predictor\views.py changed, reloading.
+INFO 2026-04-19 10:04:47,762 autoreload 13908 8036 Watching for file changes with StatReloader
+INFO 2026-04-19 10:05:08,985 autoreload 13908 8036 C:\Users\ACER\OneDrive\Desktop\PemaWangmo_mlproject\python-with-ml\machine-learning-pema-wangmo-stock-price-prediction\pema_stockprediction\predictor\views.py changed, reloading.
+INFO 2026-04-19 10:05:10,232 autoreload 9140 1592 Watching for file changes with StatReloader
+INFO 2026-04-19 10:05:29,391 autoreload 9140 1592 C:\Users\ACER\OneDrive\Desktop\PemaWangmo_mlproject\python-with-ml\machine-learning-pema-wangmo-stock-price-prediction\pema_stockprediction\predictor\views.py changed, reloading.
+INFO 2026-04-19 10:05:30,544 autoreload 5652 14008 Watching for file changes with StatReloader
+INFO 2026-04-19 10:06:02,866 autoreload 5652 14008 C:\Users\ACER\OneDrive\Desktop\PemaWangmo_mlproject\python-with-ml\machine-learning-pema-wangmo-stock-price-prediction\pema_stockprediction\predictor\views.py changed, reloading.
+INFO 2026-04-19 10:06:04,074 autoreload 9248 17744 Watching for file changes with StatReloader
+WARNING 2026-04-19 10:06:18,866 log 9248 11356 Not Found: /favicon.ico
+INFO 2026-04-19 10:10:34,606 autoreload 9248 17744 C:\Users\ACER\OneDrive\Desktop\PemaWangmo_mlproject\python-with-ml\machine-learning-pema-wangmo-stock-price-prediction\pema_stockprediction\predictor\ml_service.py changed, reloading.
+INFO 2026-04-19 10:10:35,711 autoreload 22448 11420 Watching for file changes with StatReloader
+INFO 2026-04-19 10:10:40,796 autoreload 22448 11420 C:\Users\ACER\OneDrive\Desktop\PemaWangmo_mlproject\python-with-ml\machine-learning-pema-wangmo-stock-price-prediction\pema_stockprediction\predictor\ml_service.py changed, reloading.
+INFO 2026-04-19 10:10:41,831 autoreload 20624 15944 Watching for file changes with StatReloader
+INFO 2026-04-19 10:10:45,291 autoreload 20624 15944 C:\Users\ACER\OneDrive\Desktop\PemaWangmo_mlproject\python-with-ml\machine-learning-pema-wangmo-stock-price-prediction\pema_stockprediction\predictor\ml_service.py changed, reloading.
+INFO 2026-04-19 10:10:46,258 autoreload 9128 2728 Watching for file changes with StatReloader
+INFO 2026-04-19 10:10:49,866 autoreload 9128 2728 C:\Users\ACER\OneDrive\Desktop\PemaWangmo_mlproject\python-with-ml\machine-learning-pema-wangmo-stock-price-prediction\pema_stockprediction\predictor\ml_service.py changed, reloading.
+INFO 2026-04-19 10:10:50,801 autoreload 10880 11472 Watching for file changes with StatReloader
+INFO 2026-04-19 10:10:54,205 autoreload 10880 11472 C:\Users\ACER\OneDrive\Desktop\PemaWangmo_mlproject\python-with-ml\machine-learning-pema-wangmo-stock-price-prediction\pema_stockprediction\predictor\ml_service.py changed, reloading.
+INFO 2026-04-19 10:10:55,179 autoreload 1816 22304 Watching for file changes with StatReloader
+INFO 2026-04-19 10:11:05,008 autoreload 1816 22304 C:\Users\ACER\OneDrive\Desktop\PemaWangmo_mlproject\python-with-ml\machine-learning-pema-wangmo-stock-price-prediction\pema_stockprediction\predictor\ml_service.py changed, reloading.
+INFO 2026-04-19 10:11:06,013 autoreload 11784 3392 Watching for file changes with StatReloader
+INFO 2026-04-19 10:11:10,874 autoreload 11784 3392 C:\Users\ACER\OneDrive\Desktop\PemaWangmo_mlproject\python-with-ml\machine-learning-pema-wangmo-stock-price-prediction\pema_stockprediction\predictor\ml_service.py changed, reloading.
+INFO 2026-04-19 10:11:11,975 autoreload 19696 10312 Watching for file changes with StatReloader
+INFO 2026-04-19 10:11:13,182 autoreload 19696 10312 C:\Users\ACER\OneDrive\Desktop\PemaWangmo_mlproject\python-with-ml\machine-learning-pema-wangmo-stock-price-prediction\pema_stockprediction\predictor\ml_service.py changed, reloading.
+INFO 2026-04-19 10:11:14,006 autoreload 11424 9064 Watching for file changes with StatReloader
+INFO 2026-04-19 10:19:14,848 autoreload 11424 9064 C:\Users\ACER\OneDrive\Desktop\PemaWangmo_mlproject\python-with-ml\machine-learning-pema-wangmo-stock-price-prediction\pema_stockprediction\predictor\views.py changed, reloading.
+INFO 2026-04-19 10:19:15,924 autoreload 19500 10412 Watching for file changes with StatReloader
+INFO 2026-04-19 10:19:20,418 autoreload 19500 10412 C:\Users\ACER\OneDrive\Desktop\PemaWangmo_mlproject\python-with-ml\machine-learning-pema-wangmo-stock-price-prediction\pema_stockprediction\predictor\views.py changed, reloading.
+INFO 2026-04-19 10:19:21,607 autoreload 4124 9940 Watching for file changes with StatReloader
+INFO 2026-04-19 10:20:57,347 autoreload 4124 9940 C:\Users\ACER\OneDrive\Desktop\PemaWangmo_mlproject\python-with-ml\machine-learning-pema-wangmo-stock-price-prediction\pema_stockprediction\stock_project\settings.py changed, reloading.
+INFO 2026-04-19 10:20:58,534 autoreload 12064 20872 Watching for file changes with StatReloader
+INFO 2026-04-19 10:25:51,182 autoreload 12064 20872 C:\Users\ACER\OneDrive\Desktop\PemaWangmo_mlproject\python-with-ml\machine-learning-pema-wangmo-stock-price-prediction\pema_stockprediction\predictor\ml_service.py changed, reloading.
+INFO 2026-04-19 10:25:52,568 autoreload 22036 22284 Watching for file changes with StatReloader
+INFO 2026-04-19 10:27:53,469 autoreload 22036 22284 C:\Users\ACER\OneDrive\Desktop\PemaWangmo_mlproject\python-with-ml\machine-learning-pema-wangmo-stock-price-prediction\pema_stockprediction\predictor\ml_service.py changed, reloading.
+INFO 2026-04-19 10:27:54,414 autoreload 10500 16980 Watching for file changes with StatReloader
+INFO 2026-04-19 10:27:59,986 autoreload 10500 16980 C:\Users\ACER\OneDrive\Desktop\PemaWangmo_mlproject\python-with-ml\machine-learning-pema-wangmo-stock-price-prediction\pema_stockprediction\predictor\ml_service.py changed, reloading.
+INFO 2026-04-19 10:28:00,933 autoreload 17492 9580 Watching for file changes with StatReloader
+INFO 2026-04-19 10:28:10,316 autoreload 17492 9580 C:\Users\ACER\OneDrive\Desktop\PemaWangmo_mlproject\python-with-ml\machine-learning-pema-wangmo-stock-price-prediction\pema_stockprediction\predictor\ml_service.py changed, reloading.
+INFO 2026-04-19 10:28:11,284 autoreload 19500 10556 Watching for file changes with StatReloader
+INFO 2026-04-19 10:28:16,556 autoreload 19500 10556 C:\Users\ACER\OneDrive\Desktop\PemaWangmo_mlproject\python-with-ml\machine-learning-pema-wangmo-stock-price-prediction\pema_stockprediction\predictor\ml_service.py changed, reloading.
+INFO 2026-04-19 10:28:17,691 autoreload 2400 15744 Watching for file changes with StatReloader
+INFO 2026-04-19 10:28:22,918 autoreload 2400 15744 C:\Users\ACER\OneDrive\Desktop\PemaWangmo_mlproject\python-with-ml\machine-learning-pema-wangmo-stock-price-prediction\pema_stockprediction\predictor\ml_service.py changed, reloading.
+INFO 2026-04-19 10:28:24,005 autoreload 6464 15576 Watching for file changes with StatReloader
+INFO 2026-04-19 10:28:30,823 autoreload 6464 15576 C:\Users\ACER\OneDrive\Desktop\PemaWangmo_mlproject\python-with-ml\machine-learning-pema-wangmo-stock-price-prediction\pema_stockprediction\predictor\ml_service.py changed, reloading.
+INFO 2026-04-19 10:28:31,735 autoreload 10628 13712 Watching for file changes with StatReloader
+INFO 2026-04-19 10:28:38,648 autoreload 10628 13712 C:\Users\ACER\OneDrive\Desktop\PemaWangmo_mlproject\python-with-ml\machine-learning-pema-wangmo-stock-price-prediction\pema_stockprediction\predictor\ml_service.py changed, reloading.
+INFO 2026-04-19 10:28:39,891 autoreload 10916 16668 Watching for file changes with StatReloader
+INFO 2026-04-19 10:28:43,496 autoreload 10916 16668 C:\Users\ACER\OneDrive\Desktop\PemaWangmo_mlproject\python-with-ml\machine-learning-pema-wangmo-stock-price-prediction\pema_stockprediction\predictor\ml_service.py changed, reloading.
+INFO 2026-04-19 10:28:44,800 autoreload 4640 1716 Watching for file changes with StatReloader
+INFO 2026-04-19 10:29:29,798 autoreload 18424 11120 Watching for file changes with StatReloader
